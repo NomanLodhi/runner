@@ -1,0 +1,21 @@
+.char{
+    display: none;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    
+}
+
+#container{
+    width: 100px;
+    background-color: black;
+    animation: run 10s ease;
+    position: absolute;
+    left: 0%;
+}
+@keyframes run {
+    100%{
+        position: absolute;
+    left: 1000px;
+    }
+}
